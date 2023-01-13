@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.fuente01 { font-family: 'Alata', sans-serif; }
+.fuente02 { font-family: 'Jost', sans-serif; }
+.fuente03 { font-family: 'Readex Pro', sans-serif; }
+.mono01 { font-family: 'Ubuntu Mono', monospace; }
