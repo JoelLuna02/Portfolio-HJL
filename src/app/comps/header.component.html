@@ -1,47 +1,79 @@
 <header class="fuente03">
 
-<nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg bg-light" style="background: transparent 20%;"> <!-- style="backdrop-filter: blur(10px);" -->
-  <div class="container-fluid">
-    <a class="navbar-brand fw-bold" href="#">Joel Luna</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</nav>
+<nav class="navbar navbar-dark bg-body-tertiary fixed-top navbar-expand-lg bg-dark rounded-0"> <!-- style="backdrop-filter: blur(10px);" -->
+    <div class="container-fluid container">
+        <div class="d-lg-none" style="width: 1.5rem;"></div>
+        <a class="navbar-brand fw-bold" href="#">Joel Luna</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    
+        <div class="offcanvas-lg offcanvas-end flex-grow-1 border border-0 bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header px-4 pb-0">
+                <h5 class="offcanvas-title fw-bold text-white" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#offcanvasNavbar"></button>
+            </div>
+            <div class="offcanvas-body p-4 pt-0 p-lg-0">
 
-<div style="padding-top: 3.65rem"></div>
+                <hr class="d-lg-none">
+                <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">       
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link active py-2 px-0 px-lg-2" aria-current="page" href="#">Sobre mi</a>
+                    </li>
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link active py-2 px-0 px-lg-2" href="#">Habilidades</a>
+                    </li>
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link active py-2 px-0 px-lg-2" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link active py-2 px-0 px-lg-2" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+
+                <hr class="d-lg-none">
+                <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link py-2 px-0 px-lg-2" href="#" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-facebook"></i>
+                            <small class="d-lg-none ms-2">Facebook</small>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link py-2 px-0 px-lg-2" href="#" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-instagram"></i>
+                            <small class="d-lg-none ms-2">Instagram</small>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link py-2 px-0 px-lg-2" href="#" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i>
+                            <small class="d-lg-none ms-2">Github</small>
+                        </a>
+                    </li>
+                    <li class="nav-item col-6 col-lg-auto">
+                        <a class="nav-link py-2 px-0 px-lg-2" href="#" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <small class="d-lg-none ms-2">Linkedin</small>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                        <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
+                        <hr class="d-lg-none my-2 text-white-50">
+                    </li>
+
+                    <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+                        <button class="btn btn-sm btn-primary py-2 px-lg-6 fuente02" type="button">
+                            <i class="fa-solid fa-right-to-bracket"></i>
+                            <span class="ms-2">Login</span>
+                        </button>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
 
 </header>

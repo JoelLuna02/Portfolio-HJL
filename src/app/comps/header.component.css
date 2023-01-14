@@ -2,3 +2,8 @@
   backdrop-filter: blur(2px);
   background-color: rgba(255,255,255,1);
 }
+
+.scrollnav {
+  background: #232323;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
+}
